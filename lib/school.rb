@@ -10,7 +10,6 @@ end
 
 def roster 
   ROSTER
-  ROSTER.clear
 end
 
 def add_student(student_name, student_grade)
