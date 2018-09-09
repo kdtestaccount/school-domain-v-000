@@ -29,7 +29,7 @@ end
 
 def sort
   ROSTER.each do |attribute, data|
-    data.sort.to_h
+    data.sort.to_s
   end
 end
 
