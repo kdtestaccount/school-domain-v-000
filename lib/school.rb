@@ -29,10 +29,8 @@ end
 
 def sort
   ROSTER.each do |attribute, data|
-
       data.sort{|a,z|a<=>z}.to_h
     end
-  end
   ROSTER
 end
 
