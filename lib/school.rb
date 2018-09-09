@@ -31,7 +31,7 @@ def sort
   ROSTER.each do |attribute, data|
       data.sort
     end
-  ROSTER
+  ROSTER.sort
 end
 
 
