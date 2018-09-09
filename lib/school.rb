@@ -28,6 +28,7 @@ end
 
 
 def sort 
+  ROSTER[grade].sort{|a,z|a<=>z}.to_h
   ROSTER.sort{|a,z|a<=>z}.to_h
 end
 
