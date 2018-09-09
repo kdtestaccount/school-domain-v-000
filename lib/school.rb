@@ -28,7 +28,7 @@ end
 
 
 def sort
-  ROSTER[ROSTER.sort.map { |a,b| [a, b.sort] }]
+  Hash[ROSTER.sort.map { |a,b| [a, b.sort] }]
 end
 
 
