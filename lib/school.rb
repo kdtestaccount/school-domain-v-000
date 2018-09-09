@@ -33,6 +33,7 @@ def sort
       people.sort{|a,z|a<=>z}.to_h
     end
   end
+  ROSTER
 end
 
 
