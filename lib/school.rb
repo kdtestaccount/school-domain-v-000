@@ -27,7 +27,7 @@ def grade(grade)
 end
 
 
-def sort
+def sort(grade)
   ROSTER.sort{|a,z|a<=>z}.to_h
 end
 
