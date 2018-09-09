@@ -29,7 +29,7 @@ end
 
 def sort
   ROSTER.each do |attribute, data|
-    
+    data.each do |people|
   ROSTER.sort{|a,z|a<=>z}.to_h
 end
 
