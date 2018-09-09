@@ -28,7 +28,7 @@ end
 
 
 def sort
-  ROSTERsort.map { |a,b| [a, b.sort] }]
+  ROSTER.sort.map { |a,b| [a, b.sort] }]
 end
 
 
