@@ -28,10 +28,9 @@ end
 
 
 def sort
-  ROSTER.each do |attribute, data|
-    data.sort
-  end
-  ROSTER.sort
+  ROSTER.sort.map do |key,value|
+  # keys will arrive in order to this block, with their associated value.
+end
 end
 
 
