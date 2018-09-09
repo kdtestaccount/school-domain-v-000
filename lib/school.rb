@@ -29,8 +29,8 @@ end
 
 def sort
   ROSTER.each do |attribute, data|
-      data.sort
-    end
+    data.sort
+  end
   ROSTER.sort
 end
 
