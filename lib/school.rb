@@ -30,6 +30,8 @@ end
 def sort
   ROSTER.sort.map { |a,b| [a, b.sort] }]
 end
+end
+end
 
 
 
