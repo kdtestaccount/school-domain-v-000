@@ -27,7 +27,8 @@ def grade(grade)
 end
 
 
-def sort(grade)
+def sort
+  ROSTER.each do |attribute, data|
   ROSTER.sort{|a,z|a<=>z}.to_h
 end
 
