@@ -5,7 +5,7 @@ class School
 ROSTER = {}
 
 def initialize(name)
-   
+   ROSTER.clear
 end
 
 def roster 
