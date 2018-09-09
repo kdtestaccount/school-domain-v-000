@@ -28,7 +28,7 @@ end
 
 
 def sort 
-  ROSTER.sort.to_h
+  ROSTER.sort{|a,z|a<=>z}.to_h
 end
 
 
