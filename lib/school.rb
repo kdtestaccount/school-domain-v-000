@@ -30,7 +30,6 @@ end
 def sort
   ROSTER.each do |attribute, data|
     ROSTER[attribute].sort
-   
   end
   ROSTER.sort
 end
